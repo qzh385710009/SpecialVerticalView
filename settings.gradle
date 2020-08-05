@@ -1,0 +1,3 @@
+include ':SVerticalViewlibrary'
+include ':app'
+rootProject.name = "SpecialVerticalView"

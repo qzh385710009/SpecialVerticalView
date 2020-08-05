@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SpecialTextView">
+        <attr name="stv_text_size" format="integer"></attr>
+        <attr name="stv_text" format="string"></attr>
+        <attr name="stv_text_color" format="dimension"></attr>
+        <attr name="stv_text_direction" format="integer"></attr>
+    </declare-styleable>
+</resources>

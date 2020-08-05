@@ -1,0 +1,28 @@
+VERSION_NAME=1.0.1
+VERSION_CODE=1
+GROUP=com.qzhhh  
+
+POM_DESCRIPTION="this is my first android aar mvn repo in github !"
+#对应要发布项目，此处是 abstractlistadapters 的github地址
+POM_URL=https://github.com/walkermanx/abstractlistadapters    
+#对应要发布项目，此处是 abstractlistadapters 的github地址
+POM_SCM_URL=https://github.com/walkermanx/abstractlistadapters
+#abstractlistadapters 的git地址
+POM_SCM_CONNECTION=scm:git@github.com:walkermanx/abstractlistadapters.git
+POM_SCM_DEV_CONNECTION=scm:git@github.com:walkermanx/abstractlistadapters.git
+POM_LICENCE_NAME=The Apache Software License, Version 2.0
+POM_LICENCE_URL=http://www.apache.org/licenses/LICENSE-2.0.txt
+POM_LICENCE_DIST=repo
+#发布者id
+POM_DEVELOPER_ID=qzhhh
+#发布者名字
+POM_DEVELOPER_NAME=qzhhh
+
+#项目的Maven本地部署路径，部署文件生成之后会存放在此，然后我们把这些文件提交到之前提前在githun上建好的mvn_repo仓库
+
+RELEASE_REPOSITORY_URL=file:///D:/WorkSpace/AndroidStudioProject/personal_projects/mvn-repo/Android/Lib/abstractlistadapters/
+SNAPSHOT_REPOSITORY_URL=file:///D:/WorkSpace/AndroidStudioProject/personal_projects/mvn-repo/Android/Lib/abstractlistadapters/snapshots/
+
+#RELEASE_REPOSITORY_URL 和 SNAPSHOT_REPOSITORY_URL
+#两个配置分别是正式版和快照版的本地路径。如果版本号后带有 -SNAPSHOT (大小写敏感  也就是-snapshot依然会发布到 RELEASE_REPOSITORY_URL 目录下 不会发布发到SNAPSHOT_REPOSITORY_URL )
+#编译后会发布到 SNAPSHOT_REPOSITORY_URL 相应的目录下。
