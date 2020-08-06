@@ -16,8 +16,11 @@ allprojects {
     repositories {
         google()
         jcenter()
+//        maven{
+//            url '/Users/qzhhh/Work/Study/NewLearning/project/1Maven/local_maven'
+//        }
         maven{
-            url '/Users/qzhhh/Work/Study/NewLearning/project/1Maven/local_maven'
+            url 'https://raw.githubusercontent.com/qzh385710009/SpecialVerticalView/master'
         }
     }
 }
